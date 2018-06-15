@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="es">
+ <head>
+  <meta charset=<?= APP_CHARSET ?> >
+  <title>WebPay | KumbiaPHP Framework</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <?php Tag::css('litera') ?>
+  <?= Html::includeCss() ?>
+</head>
+<body>
+<div class="container">
+  <?php View::content() ?>
+</div>
+<?php echo Tag::js('jquery.min') ?>
+<?php echo Tag::js('bootstrap.min') ?>
+</body>
+</html>

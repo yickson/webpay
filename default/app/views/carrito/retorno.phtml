@@ -1,0 +1,10 @@
+<form name="webpay" action="<?=$result->urlRedirection?>" method="post">
+  <input type="text" name="token_ws" value="<?=$token?>" style="display:none"/>
+  <input id="regreso" type="submit" value="Continuar" style="display:none" />
+</form>
+
+<script>
+    window.onload = function(){
+     document.webpay.submit();
+    }
+</script>

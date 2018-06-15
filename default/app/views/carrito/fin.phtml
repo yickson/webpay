@@ -1,0 +1,19 @@
+<?php if($mensaje): ?>
+  <div class="alert alert-info">
+    <strong>Compra anulada por el usuario</strong>
+    <?php echo Html::link('../', 'Volver al inicio', 'class="btn btn-success"') ?>
+  </div>
+
+<?php else: ?>
+  <div class="row">
+    <div class="col-md-3"></div>
+    <div class="col-md-6">
+      <p>La compra ha sido exitosa!!!</p>
+      <pre>
+        <?php print_r(Session::get('compra')) ?>
+      </pre>
+      <?php echo Html::link('', 'Volver al inicio', 'class="btn btn-primary"') ?>
+    </div>
+    <div class="col-md-3"></div>
+  </div>
+<?php endif ?>

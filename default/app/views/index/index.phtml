@@ -1,0 +1,17 @@
+<div class="row">
+  <div class="col-md-3"></div>
+  <div class="col-md-6">
+    <h3 class="text-center">
+      Formulario para probar WebPay con KumbiaPHP
+    </h3>
+
+    <?php echo Form::open('carrito', 'POST') ?>
+    <div class="form-group">
+      <label>Monto a pagar</label>
+      <input type="text" name="monto" class="form-control" placeholder="Ingresa el monto">
+    </div>
+    <button type="submit" class="btn btn-primary">Realizar pago ficticio</button>
+    <?php echo Form::close() ?>
+  </div>
+  <div class="col-md-3"></div>
+</div>
