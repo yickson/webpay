@@ -7,18 +7,18 @@ Fue realizado de forma simple para que cualquiera pueda realizar la prueba sin n
 Los datos de tarjetas ficticias para realizar la prueba son:
 
 * Visa --- Para forzar resultados ** EXITOSOS **
-PAN:		4051885600446623
-FECHA EXP: 	Cualquiera superior al dia de hoy
-CVV: 123
+* PAN:		4051885600446623
+* FECHA EXP: 	Cualquiera superior al dia de hoy
+* CVV: 123
 
 * Mastercard --- Para forzar resultados ** FRACASOS **
-PAN:		5186059559590568
-FECHA EXP: 	Cualquiera superior al dia de hoy
-CVV:		123
+* PAN:		5186059559590568
+* FECHA EXP: 	Cualquiera superior al dia de hoy
+* CVV:		123
 
 RUT: 11.111.111-1
 Clave: 123
 
 Este sistema no utiliza base de datos sin embargo lo más normal es que se almacenen las transacciones realizadas por este medio de pago, por lo que en el código fuente explica donde hacer dichas operaciones.
 
-Para mayor información puedes comunicarte conmigo en el Slack de KumbiaPHP o directamente conmigo a mi correo: yicksonr@gmail.com
+Para mayor información puedes comunicarte conmigo en el Slack de KumbiaPHP @yickson.
