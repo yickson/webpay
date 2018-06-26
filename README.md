@@ -19,6 +19,8 @@ Los datos de tarjetas ficticias para realizar la prueba son:
 RUT: 11.111.111-1
 Clave: 123
 
+Respecto a la librería que se encuentra en "default/app/libs/webpago.php" debes modificar la url de retorno y la url final para que funcione perfectamente cabe destaca que el sistema de Transbank funciona perfectamente bajo el sistema de HTTPS.
+
 Documentación de Webpay se puede conseguir en http://www.transbankdevelopers.cl/
 
 Este sistema no utiliza base de datos sin embargo lo más normal es que se almacenen las transacciones realizadas por este medio de pago, por lo que en el código fuente explica donde hacer dichas operaciones.
